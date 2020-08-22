@@ -35,7 +35,7 @@ class CustomDrawer extends StatelessWidget {
                   Positioned(
                       top: 8,
                       left: 0,
-                      child: Text("Evidences3D",
+                      child: Text("Evidences 3D",
                           style: TextStyle(
                               fontSize: 34, fontWeight: FontWeight.bold))),
                   Positioned(

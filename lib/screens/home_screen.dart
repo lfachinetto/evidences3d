@@ -23,11 +23,11 @@ class HomeScreen extends StatelessWidget {
       children: <Widget>[
         Scaffold(
           appBar: AppBar(
-            title: Text("Evidences3D"),
+            title: Text("Evidences 3D"),
             centerTitle: true,
           ),
           drawer: CustomDrawer(_pageController),
-          body: StartTab(),
+          body: StartTab(_pageController),
           //floatingActionButton: CartButton(),
         ),
         Scaffold(

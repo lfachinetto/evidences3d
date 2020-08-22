@@ -18,11 +18,12 @@ class MyApp extends StatelessWidget {
             return ScopedModel<CartModel>(
               model: CartModel(model),
               child: MaterialApp(
-                  title: "Evidences3D",
+                  title: "Evidences 3D",
                   theme: ThemeData(
                       primarySwatch: Colors.blue,
                       primaryColor: Colors.blue),//.fromARGB(255, 4, 125, 141)),
                   debugShowMaterialGrid: false,
+                  debugShowCheckedModeBanner: false,
                   home: HomeScreen()),
             );
           },
